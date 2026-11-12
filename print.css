@@ -1,0 +1,28 @@
+@page{size:A4 landscape;margin:10mm}
+html{scroll-snap-type:none;scroll-behavior:auto}
+body{background:#fff}
+.progress,.top,.bnav,.arrows,.vnav,.hint,.blobs,.cover__bg,.modes,.citybar{display:none!important}
+[data-a]{opacity:1!important;transform:none!important;transition:none!important}
+.slide{min-height:0;height:auto;page-break-after:always;page-break-inside:avoid;padding:8mm 10mm;-webkit-print-color-adjust:exact;print-color-adjust:exact;overflow:visible}
+.slide:last-child{page-break-after:auto}
+.slide--cover{background:linear-gradient(160deg,#061238,#0A1B4D 50%,#0B3FB4)!important;min-height:180mm;border-radius:6mm}
+.cover__shade{background:none!important}
+.slide--dark{border-radius:6mm}
+.snum{display:none}
+.panel[hidden]{display:block!important;margin-top:6mm}
+#panelRuta::before{content:"Costo por tarifa de ruta — todas las ciudades";display:block;font-weight:700;font-size:11pt;color:#0B3FB4;margin-bottom:3mm}
+#panelReserva::before{content:"Costo por reserva unificado a nivel nacional";display:block;font-weight:700;font-size:11pt;color:#0B3FB4;margin-bottom:3mm}
+.rates{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm}.rate{page-break-inside:avoid;box-shadow:none;border:1px solid #E4E8F2;padding:3mm 4mm}
+.rate__city{grid-column:1 / -1;font-size:10pt;font-weight:700;color:#0A1B4D;margin:2mm 0 0}
+.rate__row{padding:1.5mm 2.5mm;margin-bottom:1.2mm}.rate__row span{font-size:8pt}.rate__row small{font-size:7pt}.rate__row b{font-size:8.5pt}.rate__h b{font-size:9.5pt}
+.zones{grid-template-columns:repeat(3,1fr);gap:2mm;margin-top:2mm}.zone{padding:2mm 3mm;font-size:7.5pt}
+#panelRuta{page-break-before:always}
+#s2{page-break-inside:auto}
+.quote{page-break-inside:avoid}
+.vstage{box-shadow:none;border:1px solid #E4E8F2}.vstage img{aspect-ratio:auto}
+.vitem{box-shadow:none;border:1px solid #E4E8F2}
+.sim{box-shadow:none;border:1px solid #E4E8F2}input[type=range]{display:none}
+.card{box-shadow:none;border:1px solid #E4E8F2}
+.card--blue,.card--navy,.out{border:0}
+.tier{border:1px solid rgba(255,255,255,.3)}
+.end__cta .btn{display:none}

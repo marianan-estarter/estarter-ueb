@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Universidad El Bosque × Estárter — Propuesta técnica de transporte 2027</title>
+<meta name="description" content="Propuesta técnica de Estárter para el servicio de transporte 2027 de la Universidad El Bosque: ruta entre instalaciones Usaquén – Chía, salidas de campo y servicio VIP.">
+<meta property="og:title" content="Universidad El Bosque × Estárter — Propuesta técnica de transporte 2027">
+<meta property="og:description" content="Ruta entre instalaciones Usaquén – Chía, salidas de campo y servicio VIP, con trazabilidad en tiempo real.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0A1B4D">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/hero-van.jpg">
+<link rel="stylesheet" href="deck.css?v=2">
+<link rel="stylesheet" href="print.css" media="print">
+<style>.ueb-chip{display:inline-flex;align-items:center;padding:6px 12px;border-radius:999px;background:#fff;color:#0A1B4D;font-weight:700;font-size:.78rem;letter-spacing:.01em;box-shadow:0 6px 18px -10px rgba(10,27,77,.5)}</style>
+</head>
+<body>
+
+<div class="progress" aria-hidden="true"><span></span></div>
+
+<header class="top">
+  <a class="lockup" href="#s0" aria-label="Inicio">
+    <img src="img/estarter-logo.svg" alt="Estárter" width="110" height="21">
+    <span class="x">×</span>
+    <span class="abai-chip ueb-chip">Universidad El Bosque</span>
+  </a>
+  <div class="top__r">
+    <span class="counter"><b id="cur">1</b> / <span id="tot">10</span></span>
+    
+  </div>
+</header>
+
+<main id="deck">
+
+<!-- 1 PORTADA -->
+<section class="slide slide--cover" id="s0" data-t="Portada">
+  <div class="cover__bg" aria-hidden="true"><img src="img/hero-van.jpg" alt="" width="1600" height="1284" fetchpriority="high"></div>
+  <div class="cover__shade" aria-hidden="true"></div>
+  <div class="blobs" aria-hidden="true"><i></i><i></i></div>
+  <div class="in cover__in">
+    <div class="brands" data-a="left">
+      <img src="img/estarter-logo-white.svg" alt="Estárter" width="170" height="33">
+    </div>
+    <p class="eyebrow" data-a="left">Solicitud de cotización SOL-0068687 · Universidad El Bosque · Usaquén – Chía</p>
+    <h1><span data-a="left">Control total de su operación,</span> <span data-a="left" class="b">más óptima y segura.</span></h1>
+    <p class="lead" data-a="left">Antes de la primera clase, estudiantes, docentes y administrativos ya deben estar en su sede: con experiencia especializada en transporte terrestre automotor especial, garantizamos que lleguen a tiempo y seguros entre Usaquén y Chía, con flota dimensionada por horario, reserva y abordaje con QR, trazabilidad en tiempo real y respaldo operativo 24/7.</p>
+    <div class="kpis">
+      <div class="kpi" data-a="right"><b aria-label="Torre de control"><svg width="1.4em" height="1.4em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v2"/><path d="M6 5h12l-1.5 5h-9z"/><path d="M8.5 7.5h7"/><path d="M9 10l-1 12"/><path d="M15 10l1 12"/><path d="M6 22h12"/><path d="M9.5 15h5"/></svg></b><span>Puntualidad y seguimiento<small>En tiempo real, por torre de control 24/7</small></span></div>
+      <div class="kpi" data-a="right"><b aria-label="Flota habilitada"><svg width="1.4em" height="1.4em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5z"/><path d="M7.5 14.5V12l1-2.5h7l1 2.5v2.5z"/><path d="M7.5 14.5v1.5M16.5 14.5v1.5"/><circle cx="9.5" cy="13" r=".4"/><circle cx="14.5" cy="13" r=".4"/></svg></b><span>Gran capacidad vehicular<small>Habilitados por MinTransporte, conectados a RUNT y SIMIT</small></span></div>
+      <div class="kpi" data-a="right"><b aria-label="Algoritmo propio"><svg width="1.4em" height="1.4em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9.5 12h1.5l1-2 1.5 4 1-2h1"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></svg></b><span>Respuesta oportuna<small>Plataforma y algoritmo propios, con 8 años de experiencia operativa en transporte especial.</small></span></div>
+    </div>
+    <div class="clients" data-a="left"><span class="clients__t">Confían en nosotros · <b>Más de 5.000 empleados movilizados al día a nivel nacional</b></span><div class="clients__m" aria-label="Clientes de Estárter"><div class="clients__track"><div class="clients__set"><img src="img/clientes/c1.png" alt=""><img src="img/clientes/c2.png" alt=""><img src="img/clientes/c3.png" alt=""><img src="img/clientes/c4.png" alt=""><img src="img/clientes/c5.png" alt=""><img src="img/clientes/c6.png" alt=""><img src="img/clientes/c7.png" alt=""><img src="img/clientes/c8.png" alt=""><img src="img/clientes/c9.png" alt=""><img src="img/clientes/c10.png" alt=""><img src="img/clientes/c11.png" alt=""><img src="img/clientes/c12.png" alt=""><img src="img/clientes/c13.png" alt=""><img src="img/clientes/c14.png" alt=""><img src="img/clientes/c15.png" alt=""><img src="img/clientes/c16.png" alt=""><img src="img/clientes/c17.png" alt=""><img src="img/clientes/c18.png" alt=""></div><div class="clients__set" aria-hidden="true"><img src="img/clientes/c1.png" alt=""><img src="img/clientes/c2.png" alt=""><img src="img/clientes/c3.png" alt=""><img src="img/clientes/c4.png" alt=""><img src="img/clientes/c5.png" alt=""><img src="img/clientes/c6.png" alt=""><img src="img/clientes/c7.png" alt=""><img src="img/clientes/c8.png" alt=""><img src="img/clientes/c9.png" alt=""><img src="img/clientes/c10.png" alt=""><img src="img/clientes/c11.png" alt=""><img src="img/clientes/c12.png" alt=""><img src="img/clientes/c13.png" alt=""><img src="img/clientes/c14.png" alt=""><img src="img/clientes/c15.png" alt=""><img src="img/clientes/c16.png" alt=""><img src="img/clientes/c17.png" alt=""><img src="img/clientes/c18.png" alt=""></div></div></div></div>
+    <style>
+      .clients{margin-top:1.6rem;max-width:760px}
+      .clients__t{display:block;font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;opacity:.55;margin-bottom:.6rem}
+      .clients__m{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+      .clients__track{display:flex;width:-moz-max-content;width:max-content;animation:clientsMove 60s linear infinite}.clients__set{display:flex;align-items:center;gap:3.5rem;padding-right:3.5rem}.clients__t b{opacity:1;color:#fff;font-weight:600}
+      .clients__set img{height:30px;max-width:130px;-o-object-fit:contain;object-fit:contain;width:auto;opacity:.45;filter:drop-shadow(0 2px 6px rgba(0,0,0,.35))}
+      @keyframes clientsMove{to{transform:translateX(-50%)}}
+      @media (prefers-reduced-motion:reduce){.clients__track{animation:none}}
+      @media (max-width:640px){.clients__set img{height:24px}}
+    .slide-off{display:none!important}.op{max-width:760px}.op__ic{display:inline-grid;place-items:center;width:84px;height:84px;border-radius:24px;background:#77B526;color:#fff;margin-bottom:1.4rem;box-shadow:0 12px 30px -10px rgba(119,181,38,.6)}.op__ic svg{width:44px;height:44px}
+    </style>
+    <div class="hint" data-a="left"><kbd>→</kbd> siguiente pantalla · <kbd>←</kbd> anterior</div>
+  </div>
+</section>
+
+<section class="slide" id="op1" data-t="Ruta entre instalaciones">
+  <span class="snum" data-a="right">01</span>
+  <div class="in">
+    <div class="op">
+      <span class="op__ic" data-a="pop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4M8 14l2.5 2.5L16 12"/></svg></span>
+      <p class="eyebrow" data-a="left">Transporte entre instalaciones Usaquén – Chía</p>
+      <p class="lead" data-a="left">Operamos la programación semanal de la Universidad entre la sede de Usaquén (Av. Cra. 9 No. 131A-02) y Chía km 20 Autopista Norte: 55 trayectos por semana de lunes a viernes, y sábados cuando se requiera, con buses de 40, busetas de 25 y microbuses de 19 pasajeros, modelo 2022 o más reciente. Cada vehículo se ubica en la sede 15 minutos antes de la salida y el regreso hace las 3 paradas acordadas: CC Santafé, Portal 170 y estación Alcalá.</p>
+    </div>
+    <div class="plan">
+      <figure data-a="pop"><div class="plan__f"><span class="plan__bar"><i></i><i></i><i></i><em>Programación de rutas</em></span><img src="img/plan1.png" alt="Programación de rutas" loading="lazy"></div><figcaption><span class="plan__n">01</span><b>Programación de toda la operación</b><p>Cada salida programada con su capacidad, hora de presentación en la sede y vehículo asignado.</p><ul><li>Ajuste según el calendario académico</li><li>Reservas del día anterior, con corte a las 6 p. m.</li></ul></figcaption></figure>
+      <figure data-a="pop"><div class="plan__f"><span class="plan__bar"><i></i><i></i><i></i><em>Servicios en vivo</em></span><img src="img/plan2.png" alt="Servicios registrados en tiempo real" loading="lazy"></div><figcaption><span class="plan__n">02</span><b>Registro en tiempo real</b><p>Cada servicio queda visible al instante, con sus datos clave.</p><ul><li>Placa, sede de origen, destino y fecha</li><li>Hora de inicio y fin, ocupación</li><li>Km por recorrer y tiempo de ejecución</li></ul></figcaption></figure>
+      <figure data-a="pop"><div class="plan__f"><span class="plan__bar"><i></i><i></i><i></i><em>Detalle del servicio</em></span><img src="img/plan3.png" alt="Detalle del servicio con hitos" loading="lazy"></div><figcaption><span class="plan__n">03</span><b>Trazabilidad y auditoría</b><p>El detalle completo de cada servicio, con hitos registrados.</p><ul><li>Seguimiento paso a paso</li><li>Soporte para auditoría</li><li>Control total de la operación</li></ul></figcaption></figure>
+    </div>
+    <div class="opt">
+      <div class="opt__h" data-a="left"><p class="eyebrow">Propuesta de optimización · Ruta Usaquén – Chía</p><h3>Más operación con <em>menos recursos.</em></h3></div>
+      <div class="opt__g">
+        <div class="opt__c opt__c--hl" data-a="pop"><span class="opt__k">Casos de éxito</span><b>Hasta 30%</b><p>de optimización del recurso en nuestros clientes, ajustando la capacidad del vehículo a la ocupación real sin afectar horarios ni tiempos de recorrido.</p></div>
+        <div class="opt__c" data-a="pop"><span class="opt__k">Operación Universidad</span><b>55 trayectos</b><p>por semana entre Usaquén y Chía: 1.980 trayectos en el año académico.</p></div>
+        <div class="opt__c opt__c--hl" data-a="pop"><span class="opt__k">Opción de eficiencia · Demostrable en proyección</span><b>Propuesta alterna</b><p>Una alternativa que podemos proyectar, operar y garantizar: con la ocupación real de cada salida, registrada con el QR de abordaje, proponemos asignar a cada horario el vehículo de la capacidad justa (40, 25 o 19 pasajeros), reduciendo el gasto y la huella de carbono sin afectar la calidad del servicio.</p></div>
+        <div class="opt__c" data-a="pop"><span class="opt__k">Dimensionamiento</span><ul><li>Uso estimado por horario</li><li>Por sentido: Usaquén → Chía y Chía → Usaquén</li><li>Por capacidad: 40, 25 y 19 pasajeros</li></ul></div>
+      </div>
+    </div>
+    <style>
+      .opt{margin-top:2rem}
+      .opt__h h3{font-size:1.5rem;margin:.2rem 0 1rem}
+      .opt__h h3 em{color:#77B526;font-style:normal}
+      .opt__g{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem}
+      .opt__c{background:#fff;border-radius:18px;padding:1.2rem 1.3rem;border:1px solid rgba(10,27,77,.08);box-shadow:0 14px 34px -20px rgba(10,27,77,.35)}
+      .opt__c--hl{background:#77B526;color:#fff}
+      .opt__k{display:block;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;opacity:.7;margin-bottom:.4rem}
+      .opt__c b{display:block;font-size:2rem;font-weight:800;line-height:1.1;margin-bottom:.4rem}
+      .opt__c:not(.opt__c--hl) b{color:#0A1B4D}
+      .opt__c p{margin:0;font-size:.85rem;line-height:1.45;opacity:.9}
+      .opt__c ul{margin:.3rem 0 0;padding:0;list-style:none;font-size:.88rem}
+      .opt__c li{padding-left:1.1rem;position:relative;margin:.35rem 0}
+      .opt__c li:before{content:"";position:absolute;left:0;top:.5em;width:6px;height:6px;border-radius:50%;background:#77B526}
+      @media (max-width:900px){.opt__g{grid-template-columns:1fr}}
+      #op1 .op{max-width:none}
+      #op1 .op .lead{max-width:none;text-align:justify;-webkit-hyphens:auto;hyphens:auto}
+      .plan{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;margin-top:1.6rem}
+      .plan figure{margin:0;display:flex;flex-direction:column;background:#fff;border-radius:20px;padding:12px;box-shadow:0 18px 40px -20px rgba(10,27,77,.4);border:1px solid rgba(10,27,77,.08)}
+      .plan__f{border-radius:12px;overflow:hidden;border:1px solid rgba(10,27,77,.12);background:#0A1B4D}
+      .plan__bar{display:flex;align-items:center;gap:5px;padding:7px 10px;background:#0A1B4D}
+      .plan__bar i{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.35)}
+      .plan__bar i:first-child{background:#77B526}
+      .plan__bar em{margin-left:8px;font-style:normal;font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.75)}
+      .plan img{display:block;width:100%;aspect-ratio:16/10;-o-object-fit:cover;object-fit:cover;-o-object-position:top;object-position:top;background:#fff}
+      .plan figcaption{position:relative;padding:1rem .4rem .3rem;font-size:.82rem;line-height:1.45}
+      .plan__n{position:absolute;right:.4rem;top:.8rem;font-weight:800;font-size:1.3rem;color:rgba(119,181,38,.25)}
+      .plan figcaption b{display:block;color:#77B526;font-size:.98rem;margin-bottom:.35rem}
+      .plan figcaption p{margin:0 0 .5rem;opacity:.85}
+      .plan figcaption ul{margin:0;padding:0;list-style:none}
+      .plan figcaption li{position:relative;padding-left:1.1rem;margin:.2rem 0;opacity:.8}
+      .plan figcaption li:before{content:"";position:absolute;left:0;top:.5em;width:6px;height:6px;border-radius:50%;background:#77B526}
+      @media (max-width:900px){.plan{grid-template-columns:1fr}}
+    </style>
+  </div>
+</section>
+
+<section class="slide slide--dark" id="op2" data-t="Salidas de campo">
+  <span class="snum" data-a="right">02</span>
+  <div class="in">
+    <div class="op">
+      <span class="op__ic" data-a="pop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/></svg></span>
+      <p class="eyebrow" data-a="left">Salidas de campo y actividades académicas y administrativas</p>
+      <p class="lead" data-a="left" style="max-width:none;text-align:justify">Buses, busetas, microbuses y vans de diferentes capacidades para las salidas académicas y en misión de la Universidad, dentro y fuera de Bogotá, de ida, de regreso o en varios días. Conductores capacitados en servicio al cliente y control de horas trabajadas en la plataforma.</p>
+      <div class="fleet12" data-a="pop"><span>Para esta operación garantizamos <b>disponibilidad permanente de vehículos de 12 a 40 pasajeros</b>, modelo 2022 o más reciente.</span><div><p><b>3</b>vehículos disponibles</p><p><b>12 – 40</b>pasajeros</p><p><b>2022+</b>modelo</p></div></div>
+      <ul class="adm" data-a="left">
+        <li><b>01</b>Buses, busetas, microbuses y vans 2022+</li>
+        <li><b>02</b>Conductores capacitados en servicio al cliente</li>
+        <li><b>03</b>Vehículos limpios y conductores uniformados</li>
+        <li><b>04</b>Ida y regreso el mismo día o en varios días</li>
+        <li><b>05</b>GPS y seguimiento 24/7 desde la torre de control</li>
+        <li><b>06</b>Cinturones, extintor y botiquín en cada vehículo</li>
+      </ul>
+    </div>
+    <div class="plan">
+      <figure data-a="pop"><div class="plan__f"><span class="plan__bar"><i></i><i></i><i></i><em>Detalle de la salida</em></span><img src="img/plan3.png" alt="Detalle de la salida con hitos" loading="lazy"></div><figcaption><span class="plan__n">01</span><b>Cada salida, de principio a fin</b><p>Origen, destino, paradas e hitos registrados para el docente responsable y para la Universidad.</p></figcaption></figure>
+      <figure data-a="pop"><div class="plan__f"><span class="plan__bar"><i></i><i></i><i></i><em>Horas de servicio</em></span><img src="img/adm2.png" alt="Control de horas por conductor y vehículo" loading="lazy"></div><figcaption><span class="plan__n">02</span><b>Control de horas trabajadas</b><p>Horas por conductor y por vehículo, para garantizar la seguridad y el descanso en salidas largas y fuera de la ciudad.</p></figcaption></figure>
+      <figure data-a="pop"><div class="plan__f"><span class="plan__bar"><i></i><i></i><i></i><em>Monitoreo en vivo</em></span><img src="img/adm3.png" alt="Control de velocidad y ubicación en tiempo real" loading="lazy"></div><figcaption><span class="plan__n">03</span><b>Velocidad y ubicación en tiempo real</b><p>Control de velocidad, ubicación en vivo y registros segundo a segundo, también en carretera.</p></figcaption></figure>
+    <style>
+      #op2 .op{max-width:none}
+      .fleet12{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;margin-top:1.2rem;padding:1rem 1.4rem;border-radius:18px;background:#77B526;color:#fff}
+      .fleet12>span{font-size:.95rem;max-width:46ch}
+      .fleet12 div{display:flex;gap:2rem}
+      .fleet12 p{margin:0;text-align:center;font-size:.75rem;text-transform:uppercase;letter-spacing:.1em}
+      .fleet12 p b{display:block;font-size:2rem;font-weight:800;letter-spacing:0;line-height:1}
+      @media (max-width:900px){.fleet12{flex-direction:column;align-items:flex-start}}
+      .adm{list-style:none;padding:0;margin:1.2rem 0 0;display:grid;grid-template-columns:repeat(3,1fr);gap:.7rem}
+      .adm li{display:flex;align-items:center;gap:.7rem;padding:.75rem 1rem;border-radius:14px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);font-size:.9rem}
+      .adm b{color:#77B526;font-weight:800}
+      @media (max-width:900px){.adm{grid-template-columns:1fr}}
+    </style>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="op3" data-t="Servicio VIP">
+  <span class="snum" data-a="right">03</span>
+  <div class="in">
+    <div class="op">
+      <span class="op__ic" data-a="pop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></svg></span>
+      <p class="eyebrow" data-a="left">Transporte VIP</p>
+      <h2 data-a="left">Servicio VIP <em>para directivos e invitados.</em></h2>
+      <p class="lead" data-a="left" style="max-width:none;text-align:justify">Camionetas de placa blanca para directivos, docentes e invitados de la Universidad, dentro y fuera de la ciudad, con conductores de servicio ejecutivo y respaldadas por todo el ecosistema Estárter en trazabilidad, optimización y recursos.</p>
+      <div class="fleet12" data-a="pop"><span><b>Valor agregado:</b> al menos <b>1 vehículo eléctrico</b> disponible para el servicio VIP, como aporte a la movilidad sostenible de la Universidad.</span><div><p><b>4</b>camionetas por día</p><p><b>24/7</b>disponibilidad permanente</p></div></div>
+    </div>
+    <div class="plan">
+      <figure data-a="pop"><div class="plan__f"><img src="img/adm1.png" alt="Vehículo eléctrico Estárter" loading="lazy"></div><figcaption><span class="plan__n">01</span><b>Vehículo eléctrico</b><p>Silencioso y de cero emisiones, disponible para los servicios VIP de la Universidad.</p></figcaption></figure>
+      <figure data-a="pop"><div class="plan__f"><img src="img/s5.jpg" alt="Ruta en tiempo real y 3D" loading="lazy"></div><figcaption><span class="plan__n">02</span><b>Ruta en tiempo real</b><p>Recorrido de cada camioneta y hora estimada de llegada, visibles para la Universidad.</p></figcaption></figure>
+      <figure data-a="pop"><div class="plan__f"><img src="img/h7.jpg" alt="Calificación del servicio" loading="lazy"></div><figcaption><span class="plan__n">03</span><b>Calificación del servicio</b><p>Cada pasajero califica su viaje, y cada calificación entra al seguimiento de calidad, 24/7.</p></figcaption></figure>
+    <style>#op3 .op{max-width:none}</style>
+    </div>
+  </div>
+</section>
+
+
+<section class="slide" id="cap" data-t="Capacidad operativa">
+  <span class="snum" data-a="right">04</span>
+  <div class="in">
+    <div class="cap">
+      <div>
+        <span class="op__ic" data-a="pop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5z"/><path d="M8 13.5V12l.8-2h6.4l.8 2v1.5zM9.5 15v-1.5M14.5 15v-1.5"/></svg></span>
+        <p class="eyebrow" data-a="left">Capacidad operativa</p>
+        <h2 data-a="left">No subcontratamos: <em>operamos con respaldo.</em></h2>
+        <p class="lead" data-a="left" style="text-align:justify">Contamos con capacidad transportadora propia y con convenios de colaboración empresarial con empresas habilitadas por el Ministerio de Transporte, que operan con cargo a su propia capacidad. Estarter mantiene la responsabilidad integral del servicio y audita cada vehículo con la misma exigencia que la flota propia.</p>
+        <ul class="adm cap__l" data-a="left">
+          <li><b>01</b>Vehículos propios y afiliados</li>
+          <li><b>02</b>Convenios de colaboración autorizados por MinTransporte</li>
+          <li><b>03</b>Documentos y seguros de vehículo, conductor y propietario al día</li>
+          <li><b>04</b>Misma exigencia y auditoría que con la flota propia</li>
+        </ul>
+        <p class="fine" data-a="left">El Ministerio exige y audita estos vehículos con la misma rigidez que los propios; por eso nuestra plataforma verifica todo ese cumplimiento a cabalidad y en tiempo real.</p>
+      </div>
+      <div>
+        <div class="cap__kpi" data-a="pop"><p><b>+400</b>vehículos a nivel nacional</p><p><b>2022+</b>modelo de la flota ofertada</p></div>
+        <figure class="plan" style="display:block;margin-top:1rem" data-a="pop"><div class="plan__f" style="border-radius:16px"><img src="img/r3.jpg" alt="Flota vehicular en tiempo real en Bogotá" loading="lazy" style="aspect-ratio:auto;object-fit:contain"></div></figure>
+      </div>
+    </div>
+    <div class="cont" data-a="pop">
+      <p class="eyebrow">Plan de contingencias</p>
+      <div class="cont__g">
+        <div><b>Falla mecánica</b><span>Vehículo de reemplazo de igual o mayor capacidad, despachado de inmediato por la torre de control.</span></div>
+        <div><b>Ausencia del conductor</b><span>Relevo antes de la hora de presentación en la sede.</span></div>
+        <div><b>Cierres viales y tren</b><span>Reprogramación en tiempo real y bus de contingencia si falla el tren turístico.</span></div>
+        <div><b>Caída de la plataforma</b><span>Operación manual de respaldo y recuperación en menos de 2 horas.</span></div>
+      </div>
+    </div>
+    <style>
+      .cont{margin-top:1.4rem}
+      .cont__g{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:.5rem}
+      .cont__g div{background:#fff;border-radius:16px;padding:1rem 1.1rem;border-left:4px solid #77B526;box-shadow:0 14px 34px -20px rgba(10,27,77,.35)}
+      .cont__g b{display:block;color:#0A1B4D;margin-bottom:.3rem}
+      .cont__g span{font-size:.85rem;line-height:1.45;opacity:.85}
+      @media (max-width:900px){.cont__g{grid-template-columns:1fr 1fr}}
+    </style>
+    <style>
+      .cap{display:grid;grid-template-columns:.85fr 1.5fr;gap:1.8rem;align-items:center}#cap .in{max-width:min(1500px,96vw)}
+      .cap__l{grid-template-columns:1fr 1fr}
+      .cap__l li{background:#fff;border-color:rgba(10,27,77,.1)}
+      .cap__kpi{display:flex;gap:1rem}
+      .cap__kpi p{flex:1;margin:0;padding:1rem 1.2rem;border-radius:18px;background:#77B526;color:#fff;font-size:.8rem;text-transform:uppercase;letter-spacing:.08em}
+      .cap__kpi p+p{background:#0A1B4D}
+      .cap__kpi b{display:block;font-size:2.4rem;font-weight:800;letter-spacing:0;line-height:1}
+      @media (max-width:900px){.cap,.cap__l{grid-template-columns:1fr}}
+    </style>
+  </div>
+</section>
+
+<section class="slide" id="eq" data-t="Equipo y talento humano">
+  <span class="snum" data-a="right">05</span>
+  <div class="in">
+    <div class="eq__h">
+      <div>
+        <span class="op__ic" data-a="pop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.4"/><path d="M15.5 14.2c3 .2 5.5 2.6 5.5 5.8"/></svg></span>
+        <p class="eyebrow" data-a="left">Equipo · Talento humano</p>
+        <h2 data-a="left">Un equipo completo <em>detrás de cada servicio.</em></h2>
+      </div>
+      <p class="lead" data-a="right" style="text-align:justify">Robustez operativa y talento humano dedicados a la prestación y el seguimiento del servicio: monitoreamos 24/7 para anticiparnos y atendemos de primera mano cada necesidad del contrato.</p>
+    </div>
+    <div class="org">
+      <div class="org__row"><div class="org__n org__n--top" data-a="pop"><b>Director de operaciones</b><span>Dirección estratégica del contrato</span></div></div>
+      <div class="org__row"><div class="org__n org__n--mid" data-a="pop"><b>Líderes de operaciones</b><span>Ejecución y mejora continua</span></div></div>
+      <div class="org__row org__row--3" style="grid-template-columns:repeat(4,1fr)">
+        <div class="org__n org__n--hl" data-a="pop"><b>Torre de control 24/7</b><span>Monitorea toda la operación en tiempo real para anticiparse a cualquier novedad.</span></div>
+        <div class="org__n org__n--hl" data-a="pop"><b>Coordinador del contrato</b><span>Interlocutor principal ante la Universidad: programación, indicadores y novedades.</span></div><div class="org__n org__n--hl" data-a="pop"><b>Auxiliares de ruta</b><span>En Usaquén y Chía: control de ingreso y salida, orientación y validación de reservas.</span></div>
+        <div class="org__n org__n--hl" data-a="pop"><b>Equipo PQRS</b><span>Plataforma de gestión de tickets con tiempos de SLA.</span></div>
+      </div>
+      <p class="org__lbl" data-a="left">Áreas de soporte transversal</p>
+      <div class="org__row org__row--4">
+        <div class="org__n" data-a="pop"><b>HSEQ</b><span>Seguridad, salud, ambiente y calidad</span></div>
+        <div class="org__n" data-a="pop"><b>Jurídico</b><span>Contratos, normativa y cumplimiento</span></div>
+        <div class="org__n" data-a="pop"><b>Recursos humanos</b><span>Selección, formación y bienestar</span></div>
+        <div class="org__n" data-a="pop"><b>IT</b><span>Plataforma, algoritmo y soporte tecnológico</span></div>
+      </div>
+    </div>
+    <style>
+      #eq .in{max-width:min(1400px,96vw)}
+      .eq__h{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:end;margin-bottom:1.6rem}
+      .org{display:flex;flex-direction:column;align-items:center;gap:1.1rem}
+      .org__row{position:relative;display:flex;justify-content:center;width:100%;gap:1rem}
+      .org__row+.org__row:before,.org__lbl:before{content:"";position:absolute;left:50%;top:-1.1rem;height:1.1rem;border-left:2px solid #77B526}
+      .org__row--3,.org__row--4{display:grid;gap:1rem}
+      .org__row--3{grid-template-columns:repeat(3,1fr)}
+      .org__row--4{grid-template-columns:repeat(4,1fr)}
+      .org__row--3:after{content:"";position:absolute;top:-.55rem;left:16.6%;right:16.6%;border-top:2px solid #77B526}
+      .org__n{position:relative;background:#fff;border:1px solid rgba(10,27,77,.1);border-radius:16px;padding:.8rem 1rem;text-align:center;box-shadow:0 12px 30px -20px rgba(10,27,77,.4)}
+      .org__n b{display:block;font-size:.95rem;color:#0A1B4D}
+      .org__n span{display:block;font-size:.78rem;line-height:1.4;opacity:.75;margin-top:.2rem}
+      .org__n--top{background:#0A1B4D;min-width:300px}.org__n--top b,.org__n--top span{color:#fff}
+      .org__n--mid{background:#4E8A12;min-width:300px}.org__n--mid b,.org__n--mid span{color:#fff}
+      .org__n--hl{border:2px solid #77B526}
+      .org__lbl{position:relative;margin:.4rem 0 -.2rem;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;opacity:.6}
+      .org__row--4 .org__n{background:rgba(119,181,38,.08)}
+      @media (max-width:900px){.eq__h,.org__row--3,.org__row--4{grid-template-columns:1fr}.org__row--3:after{display:none}}
+    </style>
+  </div>
+</section>
+
+
+
+
+<!-- 5 SEGUIMIENTO + HSEQ -->
+<section class="slide" id="s4" data-t="Seguimiento y HSEQ">
+  <span class="snum" data-a="right">04</span>
+  <div class="in">
+    <div class="two">
+      <div>
+        <p class="eyebrow" data-a="left">1.3 · Seguimiento y registro</p>
+        <h2 class="h2s" data-a="left">Cada viaje, visible <em>y registrado.</em></h2>
+        <div class="viewer viewer--sm" data-viewer="seg" data-static data-a="left"></div>
+      </div>
+      <div>
+        <p class="eyebrow" data-a="right">1.4 · HSEQ</p>
+        <h2 class="h2s" data-a="right">Seguridad, salud, ambiente <em>y calidad.</em></h2>
+        <div class="viewer viewer--sm" data-viewer="hseq" data-static data-a="right"></div>
+        <p class="fine" data-a="right"><b>Además:</b> alcoholimetría y pruebas de sustancias psicoactivas · PESV · SG-SST con 100 % en estándares mínimos (ARL SURA) · inducción SST de todo el personal.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 6 TABLERO + TICKETS -->
+<section class="slide slide--dark" id="s5" data-t="Tablero y tickets">
+  <span class="snum" data-a="right">05</span>
+  <div class="in">
+    <div class="two">
+      <div>
+        <p class="eyebrow" data-a="left">1.5 · Tablero financiero en tiempo real</p>
+        <h2 class="h2s" data-a="left">Ahorros y operación <em>al día.</em></h2>
+        <div class="viewer viewer--sm" data-viewer="tab" data-a="left"></div>
+        <p class="fine" data-a="left"><b>Indicadores de huella de carbono:</b> kilómetros, ocupación, consumo de combustible o energía y CO₂ equivalente por servicio, disponibles para la Universidad.</p>
+      </div>
+      <div>
+        <p class="eyebrow" data-a="right">1.6 · Plataforma de tickets</p>
+        <h2 class="h2s" data-a="right">Novedades con plan de acción <em>y SLA.</em></h2>
+        <div class="viewer viewer--sm" data-viewer="tik" data-a="right"></div>
+        <p class="fine" data-a="right">Cada ticket con su plan de acción y corrección, acompañado por Aurora, nuestra IA, y con los SLA acordados con el cliente.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- 9 USUARIO -->
+<section class="slide" id="s9" data-t="Usuario">
+  <span class="snum" data-a="right">07</span>
+  <div class="in">
+    <div class="usr">
+      <div>
+        <span class="op__ic" data-a="pop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M10 18h4"/><circle cx="12" cy="9" r="2.5"/></svg></span>
+        <p class="eyebrow" data-a="left">Experiencia del usuario</p>
+        <h2 data-a="left">Tu ruta, <em>en tu mano.</em></h2>
+        <p class="lead" data-a="left" style="text-align:justify">Cada estudiante, docente o administrativo gestiona su transporte desde la app, con toda la información de su servicio en tiempo real.</p>
+        <ul class="adm usr__l" data-a="left">
+          <li><b>01</b>Ubicación de tu ruta en tiempo real</li>
+          <li><b>02</b>Recorrido, duración y hora estimada</li>
+          <li><b>03</b>Placa del vehículo asignado</li>
+          <li><b>04</b>Tus reservas activas</li>
+          <li><b>05</b>Gestión de próximos servicios: cambio de hora y cancelación</li>
+          <li><b>06</b>QR único por persona y por servicio para un abordaje verificado y seguro</li>
+          <li><b>07</b>Integración con MOVIBOSQUE por API, servicios web o archivos</li>
+        </ul>
+      </div>
+      <div class="usr__g">
+        <figure data-a="pop"><img src="img/usr1.jpg" alt="Ruta en tiempo real con placa del vehículo"><figcaption>Ruta en tiempo real</figcaption></figure>
+        <figure data-a="pop"><img src="img/usr2.jpg" alt="Gestión de la reserva"><figcaption>Gestión de reservas</figcaption></figure>
+        <figure data-a="pop"><img src="img/usr3.jpg" alt="QR único de abordaje"><figcaption>QR único de abordaje</figcaption></figure>
+      </div>
+    </div>
+    <style>
+      #s9 .in{max-width:min(1500px,96vw)}
+      .usr{display:grid;grid-template-columns:.9fr 1.4fr;gap:2rem;align-items:center}
+      .usr__l{grid-template-columns:1fr}
+      .usr__l li{background:#fff;border-color:rgba(10,27,77,.1);padding:.6rem .9rem}
+      .usr__g{display:grid;grid-template-columns:.75fr 1.25fr .75fr;gap:1rem;align-items:center}
+      .usr__g figure{margin:0;background:#fff;border-radius:18px;padding:8px;box-shadow:0 18px 40px -20px rgba(10,27,77,.4)}
+      .usr__g img{display:block;width:100%;height:auto;max-height:68vh;-o-object-fit:contain;object-fit:contain;border-radius:12px}
+      .usr__g figcaption{text-align:center;font-size:.75rem;font-weight:600;color:#4E8A12;padding:.4rem 0 .1rem}
+      @media (max-width:900px){.usr,.usr__g{grid-template-columns:1fr}}
+    </style>
+  </div>
+</section>
+
+<section class="slide" id="decl" data-t="Declaración de oferta técnica">
+  <span class="snum" data-a="right">08</span>
+  <div class="in">
+    <div class="decl card" data-a="pop">
+      <p class="eyebrow">08 · Declaración</p>
+      <h2>Declaración de <em>oferta técnica.</em></h2>
+      <p class="decl__t">En mi calidad de representante legal de <b>ESTARTER TECHNOLOGY S.A.S.</b>, declaro que la sociedad cuenta con la capacidad operativa descrita en este plan y que la mantendrá durante toda la ejecución contractual, en las condiciones de la solicitud de cotización <b>SOL-0068687</b> de la Universidad El Bosque y sus anexos.</p>
+      <p class="decl__d">Bogotá D.C., 12/11/2026.</p>
+      <div class="decl__s">
+        <img src="img/firma.png" alt="Firma de Maryi Paola Moreno Ortiz">
+        <span class="decl__line"></span>
+        <b>MARYI PAOLA MORENO ORTIZ</b>
+        <span>Representante Legal</span>
+        <span>C.C. 1022325548</span>
+        <span>ESTARTER TECHNOLOGY S.A.S. – NIT 901.148.413-3</span>
+      </div>
+    </div>
+    <style>
+      #decl{background:linear-gradient(180deg,rgba(243,245,250,.55),rgba(243,245,250,.8)),url(img/decl-bg.jpg) center/cover no-repeat}
+      .decl{max-width:860px;margin:0 auto;padding:2.4rem 2.8rem}
+      .decl__t{font-size:1.05rem;line-height:1.7;text-align:justify;margin:1.2rem 0}
+      .decl__d{margin:0 0 1.4rem;opacity:.8}
+      .decl__s{display:flex;flex-direction:column;align-items:flex-start;gap:.15rem;font-size:.88rem}
+      .decl__s img{height:110px;width:auto;max-width:320px;-o-object-fit:contain;object-fit:contain;mix-blend-mode:multiply;margin-bottom:-.6rem}
+      .decl__line{display:block;width:300px;border-top:1.5px solid #0A1B4D;margin-bottom:.4rem}
+      .decl__s b{color:#0A1B4D}
+    </style>
+  </div>
+</section>
+
+<!-- 10 CIERRE -->
+<section class="slide slide--cover slide--end" id="s10" data-t="Cierre">
+  <div class="cover__bg" aria-hidden="true"><img src="img/conductor-van-brazos.jpg" alt="" loading="lazy" width="1920" height="1280"></div>
+  <div class="cover__shade" aria-hidden="true"></div>
+  <div class="in cover__in cover__in--c">
+    <div class="brands" data-a="pop"><img src="img/estarter-logo-white.svg" alt="Estárter" width="170" height="33"></div>
+    <h2 class="end" data-a="left">“Cuando el transporte corporativo se gestiona como una <em>alianza estratégica</em>, no como un servicio.”</h2>
+    <div class="end__cta" data-a="pop">
+      
+      <span>Estárter · Tecnología + movilidad para empresas · <a href="https://estarter.co" target="_blank" rel="noopener">estarter.co</a></span>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<nav class="bnav" id="bnav" aria-label="Pantallas">
+  <a href="#s0" data-i="0"><svg viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5M5.5 10v10h13V10"/></svg>Inicio</a>
+  <a href="#op1" data-i="1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4M8 14l2.5 2.5L16 12"/></svg>Ruta</a>
+  <a href="#op2" data-i="2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/></svg>Salidas</a>
+  <a href="#op3" data-i="3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></svg>VIP</a>
+  <a href="#cap" data-i="4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5z"/></svg>Capacidad</a>
+  <a href="#eq" data-i="5"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/></svg>Equipo</a>
+  <a href="#s9" data-i="8"><svg viewBox="0 0 24 24"><path d="M6 3h9l5 5v13H6zM14 3v6h6M9 13h7M9 17h7"/></svg>Usuario</a>
+  <a href="#decl" data-i="9"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l5 5v13H6zM9 17c1.5-2 2.5-2 3 0s1.5 1 3-1"/></svg>Declaración</a>
+</nav>
+
+<script src="deck.js?v=3" defer></script>
+
+</body>
+</html>
