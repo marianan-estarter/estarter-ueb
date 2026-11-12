@@ -46,13 +46,13 @@
   document.querySelectorAll('[data-viewer]').forEach(box => {
     const items = V[box.dataset.viewer]; let i0 = 0; const phone = box.classList.contains('viewer--phone');
     box.innerHTML = `<ol class="vlist">${items.map((it, i) => `<li><button type="button" class="vitem${i ? '' : ' is-active'}" data-i="${i}"><b>${String(i + 1).padStart(2, '0')}</b>${it[1]}</button></li>`).join('')}</ol>
-      <div class="vstage"><img src="img/${items[0][0]}.jpg" alt="${items[0][1]}" loading="lazy" decoding="async"><div class="vcap"><b></b></div></div>`;
+      <div class="vstage"><img src="${items[0][0]}.jpg" alt="${items[0][1]}" loading="lazy" decoding="async"><div class="vcap"><b></b></div></div>`;
     const img = box.querySelector('img'), cap = box.querySelector('.vcap b');
     const show = i => { i0 = (i + items.length) % items.length; const it = items[i0]; box.querySelectorAll('.vitem').forEach(b => b.classList.toggle('is-active', +b.dataset.i === i0));
-      img.style.opacity = 0; setTimeout(() => { img.src = `img/${it[0]}.jpg`; img.alt = it[1]; img.style.transition = 'opacity .4s'; img.style.opacity = 1; }, reduce ? 0 : 150);
+      img.style.opacity = 0; setTimeout(() => { img.src = `${it[0]}.jpg`; img.alt = it[1]; img.style.transition = 'opacity .4s'; img.style.opacity = 1; }, reduce ? 0 : 150);
       cap.textContent = `${String(i0 + 1).padStart(2, '0')} · ${it[1]}`; };
     if (!box.hasAttribute('data-static')) box.addEventListener('click', e => { const b = e.target.closest('.vitem'); if (b) return show(+b.dataset.i); });
-    show(0); items.forEach(it => { const p = new Image(); p.src = `img/${it[0]}.jpg`; });
+    show(0); items.forEach(it => { const p = new Image(); p.src = `${it[0]}.jpg`; });
   });
 
   document.querySelectorAll('[data-dl]').forEach(b => b.addEventListener('click', () => { const a = document.createElement('a');  }));
